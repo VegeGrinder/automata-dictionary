@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type ="text/css" href="bootstrap.css">
+        <script src="bootstrap.js"></script>
+	</head>
+
+	<body>
+	<div class="jumbotron row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<form action="./process.php" method="post">
+				<h1 for="input">Text:</h1>
+				<p>Nextline will become space; Taken from Sample Text first paragraph</p>
+				<textarea type="text" name="input" rows="10" style="min-width:100%">Malaysia is a federal constitutional monarchy located in Southeast Asia. It consists of thirteen states
+and three federal territories and has a total landmass of 329,847 square kilometres (127,350 sq mi)
+separated by the South China Sea into two similarly sized regions, Peninsular Malaysia and East
+Malaysia (Malaysian Borneo). Peninsular Malaysia shares a land and maritime border with Thailand
+and maritime borders with Singapore, Vietnam, and Indonesia. East Malaysia shares land and
+maritime borders with Brunei and Indonesia and a maritime border with the Philippines. The capital
+city is Kuala Lumpur, while Putrajaya is the seat of the federal government. By 2015, with a population
+of over 30 million, Malaysia became 43rd most populous country in the world. The southernmost
+point of continental Eurasia, Tanjung Piai, is in Malaysia, located in the tropics. It is one of 17
+megadiverse countries on earth, with large numbers of endemic species.</textarea>
+
+				<h1 for="dict">Dictionary:</h1>
+				<p>Separate each word by a space; Do not repeat</p>
+				<textarea type="text" name="dict" rows="10" style="min-width:100%">federal constitutional maritime capital populous continental large endemic</textarea>
+				<br><br>
+				<input class="btn btn-primary" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+	</body>
+</html>
